@@ -1,0 +1,9 @@
+me\dio\domain\model\Ingrediente.class
+me\dio\Application.class
+me\dio\controller\exception\GlobalExceptionHandler.class
+me\dio\domain\model\Passo.class
+me\dio\controller\ReceitaController.class
+me\dio\domain\model\Receita.class
+me\dio\domain\repository\ReceitaRepository.class
+me\dio\service\ReceitaService.class
+me\dio\service\impl\ReceitaServiceImpl.class
