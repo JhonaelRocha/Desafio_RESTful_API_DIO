@@ -1,5 +1,6 @@
 # REST API Receitas
 
+```
 class Receita {
         -nome: string
         -ingredientes: string[]
@@ -17,3 +18,4 @@ class Receita {
     class Passos {
         -descricao: string
     }
+```
