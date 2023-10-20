@@ -1,6 +1,6 @@
 # REST API Receitas
 
-```
+```mermaid
 class Receita {
         -nome: string
         -ingredientes: string[]
@@ -8,8 +8,7 @@ class Receita {
         -pais_de_origem: string
     }
 
-    Receita "1" *-- "n" Ingredientes
-    Receita "1" *-- "n" Passos
+    
 
     class Ingredientes {
         -nome: string
@@ -18,4 +17,7 @@ class Receita {
     class Passos {
         -descricao: string
     }
+
+    Receita "1" *-- "n" Ingredientes
+    Receita "1" *-- "n" Passos
 ```
