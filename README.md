@@ -4,18 +4,19 @@
 classDiagram
 class Receita {
   - nome: string
-  - ingredientes: string[]
-  - modo_de_preparo: string[]
+  - ingredientes: Ingrediente[]
+  - modo_de_preparo: Passo[]
   - pais_de_origem: string
 }
-class Ingredientes {
+class Ingrediente {
   - nome: string
+  - vegano: boolean
 }
 
-class Passos {
+class Passo {
   - descricao: string
 }
 
-Receita "1" *-- "n" Ingredientes
-Receita "1" *-- "n" Passos
+Receita "1" *-- "n" Ingrediente
+Receita "1" *-- "n" Passo
 ```
